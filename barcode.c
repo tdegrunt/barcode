@@ -52,9 +52,7 @@ void main( int argc, char *argv[] ) {
 }
 
 void usage( void ) {
-	printf( "barcode v%s - by Tom de Grunt\n", BARCODE_VERSION );
-	printf( "See http://www.degrunt.nl/barcode/ for more information,\n" );
-	printf( "or send an email to barcode@degrunt.nl.\n" );
+	printf( "barcode v%s\n", BARCODE_VERSION );
 	printf( "\n" );
 	printf( "usage:\n" );
 	printf( "barcode type value [text]\n" );
